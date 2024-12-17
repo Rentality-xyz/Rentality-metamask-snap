@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "description": "Rentality is a Web 3.0 car rental service designed for the growing crypto community seeking financial freedom.",
+  "proposedName": "Rentality",
+  "source": {
+    "shasum": "LIIrI1dsjtO5lydGJZ89177viMPR5UZUdVT0f25V6GA=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "iconPath": "images/img.svg",
+        "packageName": "rentality",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "endowment:page-home": {},
+    "snap_manageState": {},
+    "endowment:network-access": {}
+  },
+  "manifestVersion": "0.1"
+}

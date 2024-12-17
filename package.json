@@ -1,0 +1,21 @@
+{
+  "name": "rentality",
+  "version": "1.0.0",
+  "description": "Rentality is a Web 3.0 car rental service designed for the growing crypto community seeking financial freedom.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "mm-snap build",
+    "serve": "mm-snap serve",
+    "lint": "eslint ./src",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@metamask/snaps-sdk": "^6.13.0",
+    "@metamask/snaps-utils": "^1.0.0",
+    "node-fetch": "^3.3.2",
+    "web3": "^4.16.0"
+  },
+  "devDependencies": {
+    "@metamask/snaps-cli": "^6.5.4"
+  }
+}
