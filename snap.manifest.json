@@ -2,8 +2,12 @@
   "version": "1.0.0",
   "description": "Rentality is a Web 3.0 car rental service designed for the growing crypto community seeking financial freedom.",
   "proposedName": "Rentality",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Daniloday/rentality-snap.git"
+  },
   "source": {
-    "shasum": "LIIrI1dsjtO5lydGJZ89177viMPR5UZUdVT0f25V6GA=",
+    "shasum": "urBlDoaeZb4lcqVj2BXq/dsf4PGk8KgSMr6Rt8pPbwg=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
@@ -15,8 +19,7 @@
   },
   "initialPermissions": {
     "endowment:page-home": {},
-    "snap_manageState": {},
-    "endowment:network-access": {}
+    "snap_manageState": {}
   },
   "manifestVersion": "0.1"
 }
