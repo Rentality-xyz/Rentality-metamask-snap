@@ -1,6 +1,6 @@
 {
   "name": "rentality",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Rentality is a Web 3.0 car rental service designed for the growing crypto community seeking financial freedom.",
   "main": "src/index.js",
   "license": "MIT",
