@@ -1,5 +1,5 @@
 {
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Rentality Snap is your first step toward a Web 3.0 car rental experience",
   "proposedName": "rentality",
   "repository": {
@@ -7,7 +7,7 @@
     "url": "https://github.com/Daniloday/rentality-snap.git"
   },
   "source": {
-    "shasum": "/krQ/vC5UxNpn7g3biE2FD6YwptFSExuI25y90oOMRY=",
+    "shasum": "VqpWKz5ENPYqbTUMypEIjgSu7o6tK1PwwnDEMZoUjXw=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
@@ -25,11 +25,6 @@
     "snap_notify": {},
     "snap_dialog": {},
     "snap_manageAccounts": {},
-    "endowment:keyring": {
-      "allowedOrigins": [
-        "https://rentality.xyz"
-      ]
-    },
     "endowment:rpc": {
       "dapps": true
     }
