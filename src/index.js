@@ -87,21 +87,21 @@ function getTripStatus(statusCode: bigint): string {
         case BigInt(1):
             return "Confirmed"
         case BigInt(2):
-            return "Checked In by Host"
-        case BigInt(3):
             return "Started"
+        case BigInt(3):
+            return "On the trip"
         case BigInt(4):
-            return "Checked Out by Guest"
+            return "Finished by guest"
         case BigInt(5):
             return "Finished"
         case BigInt(6):
-            return "Closed"
+            return "Completed"
         case BigInt(7):
             return "Rejected"
         case BigInt(100):
-            return "Completed without Guest confirmation"
+            return "Completed without guest confirmation"
         default:
-            return "Not found"
+            return "Rejected"
     }
 }
 
@@ -159,7 +159,7 @@ export const onHomePage: OnHomePageHandler = async () => {
                         </Box>
                     )
                 }
-                <Link href={`${rentalityAppUrl}/guest/points`}>See details</Link>
+                <Link href={`${rentalityAppUrl}/guest/trips/booked`}>See details</Link>
                 <Divider />
                 <Link href={`${rentalityAppUrl}/guest/search`}>Rent Car</Link>
             </Box>
